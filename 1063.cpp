@@ -55,15 +55,15 @@ int main(){
 
 /*
 1063. Set Similarity (25)
-Ê±¼äÏŞÖÆ
+æ—¶é—´é™åˆ¶
 300 ms
-ÄÚ´æÏŞÖÆ
+å†…å­˜é™åˆ¶
 65536 kB
-´úÂë³¤¶ÈÏŞÖÆ
+ä»£ç é•¿åº¦é™åˆ¶
 16000 B
-ÅĞÌâ³ÌĞò
+åˆ¤é¢˜ç¨‹åº
 Standard
-×÷Õß
+ä½œè€…
 CHEN, Yue
 Given two sets of integers, the similarity of the sets is defined to be Nc/Nt*100%, where Nc is the number of distinct common numbers shared by the two sets, and Nt is the total number of distinct numbers in the two sets. Your job is to calculate the similarity of any given pair of sets.
 

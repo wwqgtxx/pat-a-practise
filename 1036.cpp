@@ -55,15 +55,15 @@ int main(){
 }
 /*
 1036. Boys vs Girls (25)
-Ê±¼äÏŞÖÆ
+æ—¶é—´é™åˆ¶
 400 ms
-ÄÚ´æÏŞÖÆ
+å†…å­˜é™åˆ¶
 65536 kB
-´úÂë³¤¶ÈÏŞÖÆ
+ä»£ç é•¿åº¦é™åˆ¶
 16000 B
-ÅĞÌâ³ÌĞò
+åˆ¤é¢˜ç¨‹åº
 Standard
-×÷Õß
+ä½œè€…
 CHEN, Yue
 This time you are asked to tell the difference between the lowest grade of all the male students and the highest grade of all the female students.
 

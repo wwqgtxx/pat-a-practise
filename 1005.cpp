@@ -66,15 +66,15 @@ int main(){
 
 /*
 1005. Spell It Right (20)
-Ê±¼äÏŞÖÆ
+æ—¶é—´é™åˆ¶
 400 ms
-ÄÚ´æÏŞÖÆ
+å†…å­˜é™åˆ¶
 65536 kB
-´úÂë³¤¶ÈÏŞÖÆ
+ä»£ç é•¿åº¦é™åˆ¶
 16000 B
-ÅĞÌâ³ÌĞò
+åˆ¤é¢˜ç¨‹åº
 Standard
-×÷Õß
+ä½œè€…
 CHEN, Yue
 Given a non-negative integer N, your task is to compute the sum of all the digits of N, and output every digit of the sum in English.
 

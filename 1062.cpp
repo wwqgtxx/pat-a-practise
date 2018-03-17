@@ -68,17 +68,17 @@ int main(){
 
 /*
 1062. Talent and Virtue (25)
-Ê±¼äÏŞÖÆ
+æ—¶é—´é™åˆ¶
 200 ms
-ÄÚ´æÏŞÖÆ
+å†…å­˜é™åˆ¶
 65536 kB
-´úÂë³¤¶ÈÏŞÖÆ
+ä»£ç é•¿åº¦é™åˆ¶
 16000 B
-ÅĞÌâ³ÌĞò
+åˆ¤é¢˜ç¨‹åº
 Standard
-×÷Õß
+ä½œè€…
 CHEN, Li
-About 900 years ago, a Chinese philosopher Sima Guang wrote a history book in which he talked about people's talent and virtue. According to his theory, a man being outstanding in both talent and virtue must be a "sage£¨Ê¥ÈË£©"; being less excellent but with one's virtue outweighs talent can be called a "nobleman£¨¾ı×Ó£©"; being good in neither is a "fool man£¨ÓŞÈË£©"; yet a fool man is better than a "small man£¨Ğ¡ÈË£©" who prefers talent than virtue.
+About 900 years ago, a Chinese philosopher Sima Guang wrote a history book in which he talked about people's talent and virtue. According to his theory, a man being outstanding in both talent and virtue must be a "sageï¼ˆåœ£äººï¼‰"; being less excellent but with one's virtue outweighs talent can be called a "noblemanï¼ˆå›å­ï¼‰"; being good in neither is a "fool manï¼ˆæ„šäººï¼‰"; yet a fool man is better than a "small manï¼ˆå°äººï¼‰" who prefers talent than virtue.
 
 Now given the grades of talent and virtue of a group of people, you are supposed to rank them according to Sima Guang's theory.
 

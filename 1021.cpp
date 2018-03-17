@@ -15,7 +15,7 @@ int find(int a){
 	} 
 	
 	int c = a;
-	while(c!=b){//Â·¾¶Ñ¹Ëõ 
+	while(c!=b){//è·¯å¾„å‹ç¼© 
 		a = father[c];
 		father[c] = b;
 		c = a;
@@ -113,15 +113,15 @@ int main(){
 
 /*
 1021. Deepest Root (25)
-Ê±¼äÏŞÖÆ
+æ—¶é—´é™åˆ¶
 1500 ms
-ÄÚ´æÏŞÖÆ
+å†…å­˜é™åˆ¶
 65536 kB
-´úÂë³¤¶ÈÏŞÖÆ
+ä»£ç é•¿åº¦é™åˆ¶
 16000 B
-ÅĞÌâ³ÌĞò
+åˆ¤é¢˜ç¨‹åº
 Standard
-×÷Õß
+ä½œè€…
 CHEN, Yue
 A graph which is connected and acyclic can be considered a tree. The height of the tree depends on the selected root. Now you are supposed to find the root that results in a highest tree. Such a root is called the deepest root.
 

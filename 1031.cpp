@@ -32,15 +32,15 @@ int main(){
 
 /*
 1031. Hello World for U (20)
-Ê±¼äÏÞÖÆ
+æ—¶é—´é™åˆ¶
 400 ms
-ÄÚ´æÏÞÖÆ
+å†…å­˜é™åˆ¶
 65536 kB
-´úÂë³¤¶ÈÏÞÖÆ
+ä»£ç é•¿åº¦é™åˆ¶
 16000 B
-ÅÐÌâ³ÌÐò
+åˆ¤é¢˜ç¨‹åº
 Standard
-×÷Õß
+ä½œè€…
 CHEN, Yue
 Given any string of N (>=5) characters, you are asked to form the characters into the shape of U. For example, "helloworld" can be printed as:
 

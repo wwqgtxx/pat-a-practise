@@ -20,13 +20,13 @@ std::vector<int> vis;
 
 void dfs(const int &begin,const int &deep,int &count){
 //	std::cout << "get:" << begin << std::endl;
-	if(deep > vis[begin]){//¼ôÖ¦£ºÈç¹ûÄãÔÚµÚÒ»²ãµÄÊ±ºòÒÑ¾­¹ıÁËÄ³½Úµã£¬ÄÇÃ´ÔÚµÚÈı²ãµÄÊ±ºòÄã¾Í²»ĞèÒªÔÙÈ¥±éÀú¸Ã½ÚµãÁË¡£ÒòÎªµ×²ãµÄ±éÀúÇé¿öÓÀÔ¶±È¸ß²ã·á¸»¡£
+	if(deep > vis[begin]){//å‰ªæï¼šå¦‚æœä½ åœ¨ç¬¬ä¸€å±‚çš„æ—¶å€™å·²ç»è¿‡äº†æŸèŠ‚ç‚¹ï¼Œé‚£ä¹ˆåœ¨ç¬¬ä¸‰å±‚çš„æ—¶å€™ä½ å°±ä¸éœ€è¦å†å»éå†è¯¥èŠ‚ç‚¹äº†ã€‚å› ä¸ºåº•å±‚çš„éå†æƒ…å†µæ°¸è¿œæ¯”é«˜å±‚ä¸°å¯Œã€‚
 //		std::cout << "ok" << std::endl;
 		if(!vis[begin]){
 			++count;
 		}
 		vis[begin] = deep;
-		if(deep > 1){//¼ôÖ¦£ºµ±Éî¶È²»ÄÜÂú×ãµÄÊ±ºòÖ±½ÓÌø¹ı±éÀú 
+		if(deep > 1){//å‰ªæï¼šå½“æ·±åº¦ä¸èƒ½æ»¡è¶³çš„æ—¶å€™ç›´æ¥è·³è¿‡éå† 
 			for(auto &item:g[begin]){
 				dfs(item,deep-1,count);
 			}
@@ -64,15 +64,15 @@ int main(){
 
 /*
 1076. Forwards on Weibo (30)
-Ê±¼äÏŞÖÆ
+æ—¶é—´é™åˆ¶
 3000 ms
-ÄÚ´æÏŞÖÆ
+å†…å­˜é™åˆ¶
 65536 kB
-´úÂë³¤¶ÈÏŞÖÆ
+ä»£ç é•¿åº¦é™åˆ¶
 16000 B
-ÅĞÌâ³ÌĞò
+åˆ¤é¢˜ç¨‹åº
 Standard
-×÷Õß
+ä½œè€…
 CHEN, Yue
 Weibo is known as the Chinese version of Twitter. One user on Weibo may have many followers, and may follow many other users as well. Hence a social network is formed with followers relations. When a user makes a post on Weibo, all his/her followers can view and forward his/her post, which can then be forwarded again by their followers. Now given a social network, you are supposed to calculate the maximum potential amount of forwards for any specific user, assuming that only L levels of indirect followers are counted.
 

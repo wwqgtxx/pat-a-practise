@@ -56,17 +56,17 @@ int main(){
 
 /*
 1079. Total Sales of Supply Chain (25)
-Ê±¼äÏŞÖÆ
+æ—¶é—´é™åˆ¶
 250 ms
-ÄÚ´æÏŞÖÆ
+å†…å­˜é™åˆ¶
 65536 kB
-´úÂë³¤¶ÈÏŞÖÆ
+ä»£ç é•¿åº¦é™åˆ¶
 16000 B
-ÅĞÌâ³ÌĞò
+åˆ¤é¢˜ç¨‹åº
 Standard
-×÷Õß
+ä½œè€…
 CHEN, Yue
-A supply chain is a network of retailers£¨ÁãÊÛÉÌ£©, distributors£¨¾­ÏúÉÌ£©, and suppliers£¨¹©Ó¦ÉÌ£©-- everyone involved in moving a product from supplier to customer.
+A supply chain is a network of retailersï¼ˆé›¶å”®å•†ï¼‰, distributorsï¼ˆç»é”€å•†ï¼‰, and suppliersï¼ˆä¾›åº”å•†ï¼‰-- everyone involved in moving a product from supplier to customer.
 
 Starting from one root supplier, everyone on the chain buys products from one's supplier in a price P and sell or distribute them in a price that is r% higher than P. Only the retailers will face the customers. It is assumed that each member in the supply chain has exactly one supplier except the root supplier, and there is no supply cycle.
 

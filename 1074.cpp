@@ -52,17 +52,17 @@ int main(){
 
 /*
 1074. Reversing Linked List (25)
-Ê±¼äÏŞÖÆ
+æ—¶é—´é™åˆ¶
 400 ms
-ÄÚ´æÏŞÖÆ
+å†…å­˜é™åˆ¶
 65536 kB
-´úÂë³¤¶ÈÏŞÖÆ
+ä»£ç é•¿åº¦é™åˆ¶
 16000 B
-ÅĞÌâ³ÌĞò
+åˆ¤é¢˜ç¨‹åº
 Standard
-×÷Õß
+ä½œè€…
 CHEN, Yue
-Given a constant K and a singly linked list L, you are supposed to reverse the links of every K elements on L. For example, given L being 1¡ú2¡ú3¡ú4¡ú5¡ú6, if K = 3, then you must output 3¡ú2¡ú1¡ú6¡ú5¡ú4; if K = 4, you must output 4¡ú3¡ú2¡ú1¡ú5¡ú6.
+Given a constant K and a singly linked list L, you are supposed to reverse the links of every K elements on L. For example, given L being 1â†’2â†’3â†’4â†’5â†’6, if K = 3, then you must output 3â†’2â†’1â†’6â†’5â†’4; if K = 4, you must output 4â†’3â†’2â†’1â†’5â†’6.
 
 Input Specification:
 

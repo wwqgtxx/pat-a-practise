@@ -95,15 +95,15 @@ int main(){
 
 /*
 1060. Are They Equal (25)
-Ê±¼äÏŞÖÆ
+æ—¶é—´é™åˆ¶
 100 ms
-ÄÚ´æÏŞÖÆ
+å†…å­˜é™åˆ¶
 65536 kB
-´úÂë³¤¶ÈÏŞÖÆ
+ä»£ç é•¿åº¦é™åˆ¶
 16000 B
-ÅĞÌâ³ÌĞò
+åˆ¤é¢˜ç¨‹åº
 Standard
-×÷Õß
+ä½œè€…
 CHEN, Yue
 If a machine can save only 3 significant digits, the float numbers 12300 and 12358.9 are considered equal since they are both saved as 0.123*105 with simple chopping. Now given the number of significant digits on a machine and two float numbers, you are supposed to tell if they are treated equal in that machine.
 
@@ -150,7 +150,7 @@ NO 0.12340*10^-1 0.12345*10^-1
 NO 0.12340*10^0 0.12345*10^0 
  
 0 0.11 0 
-YES 0.*10^0»òÕßYES 0.0*10^0£¬¶¼¿ÉÒÔAC£¬²âÊÔµãÓ¦¸ÃÃ»ÓĞÕâ¸öÀı×Ó 
+YES 0.*10^0æˆ–è€…YES 0.0*10^0ï¼Œéƒ½å¯ä»¥ACï¼Œæµ‹è¯•ç‚¹åº”è¯¥æ²¡æœ‰è¿™ä¸ªä¾‹å­ 
  
 1 0.1 0 
 NO 0.1*10^0 0.0*10^0 

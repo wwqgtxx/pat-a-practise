@@ -82,15 +82,15 @@ int main(){
 
 /*
 1068. Find More Coins (30)
-Ê±¼äÏŞÖÆ
+æ—¶é—´é™åˆ¶
 150 ms
-ÄÚ´æÏŞÖÆ
+å†…å­˜é™åˆ¶
 65536 kB
-´úÂë³¤¶ÈÏŞÖÆ
+ä»£ç é•¿åº¦é™åˆ¶
 16000 B
-ÅĞÌâ³ÌĞò
+åˆ¤é¢˜ç¨‹åº
 Standard
-×÷Õß
+ä½œè€…
 CHEN, Yue
 Eva loves to collect coins from all over the universe, including some other planets like Mars. One day she visited a universal shopping mall which could accept all kinds of coins as payments. However, there was a special requirement of the payment: for each bill, she must pay the exact amount. Since she has as many as 104 coins with her, she definitely needs your help. You are supposed to tell her, for any given amount of money, whether or not she can find some coins to pay for it.
 
@@ -117,12 +117,12 @@ No Solution
 */
 
 /*
-Èç¹ûÊ¹ÓÃ¶¯Ì¬¹æ»®£º
-d[i][j]=true±íÊ¾Ç°i¸öÓ²±ÒÄÜ¹»Ñ¡³öÈô¸É¸ö´ïµ½¼ÛÖµj¡£
-¹Ø¼üµÈÊ½Îªd[i][j]=d[i-1][j]||d[i-1][j-coin[i]]£¬·Ö±ğÎª²»ÓÃcoin[i]ºÍÓÃcoin[i]Á½ÖÖ·½°¸¡£
-µü´ú¹ı³ÌÖĞÓÃused[i][j]=ture±íÊ¾ÔÚd[i][j]==trueÊ±´æÔÚ¿ÉÒÔÓÃcoin[i]µÄ·½°¸¡£
-ÓÉÓÚ½á¹ûÒªÇóÓÅÏÈÑ¡Ğ¡ÃæÖµÓ²±Ò£¬ÏÈ½«Ó²±Ò´Ó´óµ½Ğ¡ÅÅĞò£¬´Ó´óÃæÖµÓ²±Ò¿ªÊ¼´¦Àí£¬µü´úµ½×îºóµÄĞ¡ÃæÖµ¡£Ô½Ğ¡µÄÓ²±ÒÔ½Íí²ÎÓë´¦Àí£¬ÄÜ²ÎÓëµ½¸ü¶à·½°¸ÖĞ¡£
-´ÓĞ¡ÃæÖµ¿ªÊ¼£¬¸ù¾İusedÊı×é½øĞĞ»ØËİ¿ÉµÃ³ö½á¹û¡£Ìá½»´úÂëºóAC¡£
+å¦‚æœä½¿ç”¨åŠ¨æ€è§„åˆ’ï¼š
+d[i][j]=trueè¡¨ç¤ºå‰iä¸ªç¡¬å¸èƒ½å¤Ÿé€‰å‡ºè‹¥å¹²ä¸ªè¾¾åˆ°ä»·å€¼jã€‚
+å…³é”®ç­‰å¼ä¸ºd[i][j]=d[i-1][j]||d[i-1][j-coin[i]]ï¼Œåˆ†åˆ«ä¸ºä¸ç”¨coin[i]å’Œç”¨coin[i]ä¸¤ç§æ–¹æ¡ˆã€‚
+è¿­ä»£è¿‡ç¨‹ä¸­ç”¨used[i][j]=tureè¡¨ç¤ºåœ¨d[i][j]==trueæ—¶å­˜åœ¨å¯ä»¥ç”¨coin[i]çš„æ–¹æ¡ˆã€‚
+ç”±äºç»“æœè¦æ±‚ä¼˜å…ˆé€‰å°é¢å€¼ç¡¬å¸ï¼Œå…ˆå°†ç¡¬å¸ä»å¤§åˆ°å°æ’åºï¼Œä»å¤§é¢å€¼ç¡¬å¸å¼€å§‹å¤„ç†ï¼Œè¿­ä»£åˆ°æœ€åçš„å°é¢å€¼ã€‚è¶Šå°çš„ç¡¬å¸è¶Šæ™šå‚ä¸å¤„ç†ï¼Œèƒ½å‚ä¸åˆ°æ›´å¤šæ–¹æ¡ˆä¸­ã€‚
+ä»å°é¢å€¼å¼€å§‹ï¼Œæ ¹æ®usedæ•°ç»„è¿›è¡Œå›æº¯å¯å¾—å‡ºç»“æœã€‚æäº¤ä»£ç åACã€‚
 
 #include<iostream>
 #include<vector>
@@ -146,10 +146,10 @@ int main()
     choice[i].resize(m + 1);
   }
     sort(coins.begin() + 1, coins.begin()+ n + 1,COINcmp);
-    for (int i = 1; i <= n; i++)//dpµİ¹é·½³Ì
-    { //ÕâÀïµÄÇ®±ÒÒÑ¾­´Ó´óµ½Ğ¡ÅÅºÃĞòÁË£¬ÌâÄ¿Òª×îĞ¡µÄÏÈÓÃ£¬ËùÒÔÔ½ºóÃæÂú×ãµÄcoins[i]»á¸²¸ÇÇ°ÃæµÄ
+    for (int i = 1; i <= n; i++)//dpé€’å½’æ–¹ç¨‹
+    { //è¿™é‡Œçš„é’±å¸å·²ç»ä»å¤§åˆ°å°æ’å¥½åºäº†ï¼Œé¢˜ç›®è¦æœ€å°çš„å…ˆç”¨ï¼Œæ‰€ä»¥è¶Šåé¢æ»¡è¶³çš„coins[i]ä¼šè¦†ç›–å‰é¢çš„
       for (int value = m; value >= coins[i]; value--)
-      {//¶ÔÓÚÇ®coins[i]£¬¸ù¾İÌâÒâÒªÃ»ÓĞÕÒÁã£¬ËùÒÔcoins[i]Ö»ÄÜÓÃÔÚ¼ÛÖµÔÚvalue=m~coins[i]
+      {//å¯¹äºé’±coins[i]ï¼Œæ ¹æ®é¢˜æ„è¦æ²¡æœ‰æ‰¾é›¶ï¼Œæ‰€ä»¥coins[i]åªèƒ½ç”¨åœ¨ä»·å€¼åœ¨value=m~coins[i]
         if (dp[value] <= dp[value - coins[i]] + coins[i])
         {
           dp[value] = dp[value - coins[i]] + coins[i];

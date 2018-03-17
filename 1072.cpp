@@ -121,15 +121,15 @@ int main(){
 
 /*
 1072. Gas Station (30)
-Ê±¼äÏŞÖÆ
+æ—¶é—´é™åˆ¶
 200 ms
-ÄÚ´æÏŞÖÆ
+å†…å­˜é™åˆ¶
 65536 kB
-´úÂë³¤¶ÈÏŞÖÆ
+ä»£ç é•¿åº¦é™åˆ¶
 16000 B
-ÅĞÌâ³ÌĞò
+åˆ¤é¢˜ç¨‹åº
 Standard
-×÷Õß
+ä½œè€…
 CHEN, Yue
 A gas station has to be built at such a location that the minimum distance between the station and any of the residential housing is as far away as possible. However it must guarantee that all the houses are in its service range.
 
@@ -145,7 +145,7 @@ where P1 and P2 are the two ends of a road which can be either house numbers or 
 
 Output Specification:
 
-For each test case, print in the first line the index number of the best location. In the next line, print the minimum and the average distances between the solution and all the houses. The numbers in a line must be separated by a space and be accurate up to 1 decimal place. If the solution does not exist, simply output ¡°No Solution¡±.
+For each test case, print in the first line the index number of the best location. In the next line, print the minimum and the average distances between the solution and all the houses. The numbers in a line must be separated by a space and be accurate up to 1 decimal place. If the solution does not exist, simply output â€œNo Solutionâ€.
 
 Sample Input 1:
 4 3 11 5

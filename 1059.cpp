@@ -57,17 +57,17 @@ int main(){
 
 /*
 1059. Prime Factors (25)
-Ê±¼äÏŞÖÆ
+æ—¶é—´é™åˆ¶
 100 ms
-ÄÚ´æÏŞÖÆ
+å†…å­˜é™åˆ¶
 65536 kB
-´úÂë³¤¶ÈÏŞÖÆ
+ä»£ç é•¿åº¦é™åˆ¶
 16000 B
-ÅĞÌâ³ÌĞò
+åˆ¤é¢˜ç¨‹åº
 Standard
-×÷Õß
+ä½œè€…
 HE, Qinming
-Given any positive integer N, you are supposed to find all of its prime factors, and write them in the format N = p1^k1 * p2^k2 *¡­*pm^km.
+Given any positive integer N, you are supposed to find all of its prime factors, and write them in the format N = p1^k1 * p2^k2 *â€¦*pm^km.
 
 Input Specification:
 
@@ -75,7 +75,7 @@ Each input file contains one test case which gives a positive integer N in the r
 
 Output Specification:
 
-Factor N in the format N = p1^k1 * p2^k2 *¡­*pm^km, where pi's are prime factors of N in increasing order, and the exponent ki is the number of pi -- hence when there is only one pi, ki is 1 and must NOT be printed out.
+Factor N in the format N = p1^k1 * p2^k2 *â€¦*pm^km, where pi's are prime factors of N in increasing order, and the exponent ki is the number of pi -- hence when there is only one pi, ki is 1 and must NOT be printed out.
 
 Sample Input:
 97532468

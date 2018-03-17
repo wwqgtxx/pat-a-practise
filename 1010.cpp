@@ -41,7 +41,7 @@ int main(){
 //	std::cout << real_num << std::endl;
 	char max = *std::max_element(str2.begin(),str2.end())+1;
 	int64_t i=std::max(char_to_num(max),2);
-	while(i<127){//Ð¡ÓÚ127Ê±Çî¾Ù 
+	while(i<127){//å°äºŽ127æ—¶ç©·ä¸¾ 
 		int64_t test_num = get_num(str2,i,real_num);
 		if(test_num < 0){
 			std::cout << "Impossible" << std::endl;
@@ -59,9 +59,9 @@ int main(){
 	}
 	int64_t low = i;
 	int64_t upp = i << 1;
-	while(upp>0){//´óÓÚ127Ê±¶þ·Ö 
+	while(upp>0){//å¤§äºŽ127æ—¶äºŒåˆ† 
 		int64_t test_num = get_num(str2,upp,real_num);
-		if(test_num < 0){//¶þ·ÖµÝ¼õ 
+		if(test_num < 0){//äºŒåˆ†é€’å‡ 
 			i = (low+upp)/2;
 			while(low<=upp){
 				test_num = get_num(str2,i,real_num);
@@ -79,7 +79,7 @@ int main(){
 		}else if(test_num == real_num){
 			std::cout << i << std::endl;
 			return 0;
-		}else{//³Ë2µÝÔö 
+		}else{//ä¹˜2é€’å¢ž 
 			low = upp;
 			upp = upp << 1;
 		}
@@ -90,15 +90,15 @@ int main(){
 
 /*
 1010. Radix (25)
-Ê±¼äÏÞÖÆ
+æ—¶é—´é™åˆ¶
 400 ms
-ÄÚ´æÏÞÖÆ
+å†…å­˜é™åˆ¶
 65536 kB
-´úÂë³¤¶ÈÏÞÖÆ
+ä»£ç é•¿åº¦é™åˆ¶
 16000 B
-ÅÐÌâ³ÌÐò
+åˆ¤é¢˜ç¨‹åº
 Standard
-×÷Õß
+ä½œè€…
 CHEN, Yue
 Given a pair of positive integers, for example, 6 and 110, can this equation 6 = 110 be true? The answer is "yes", if 6 is a decimal number and 110 is a binary number.
 

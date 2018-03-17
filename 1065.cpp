@@ -40,15 +40,15 @@ int main(){
 
 /*
 1065. A+B and C (64bit) (20)
-Ê±¼äÏÞÖÆ
+æ—¶é—´é™åˆ¶
 100 ms
-ÄÚ´æÏÞÖÆ
+å†…å­˜é™åˆ¶
 65536 kB
-´úÂë³¤¶ÈÏÞÖÆ
+ä»£ç é•¿åº¦é™åˆ¶
 16000 B
-ÅÐÌâ³ÌÐò
+åˆ¤é¢˜ç¨‹åº
 Standard
-×÷Õß
+ä½œè€…
 HOU, Qiming
 Given three integers A, B and C in [-263, 263], you are supposed to tell whether A+B > C.
 
