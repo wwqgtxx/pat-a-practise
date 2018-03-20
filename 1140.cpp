@@ -30,7 +30,17 @@ int main(){
 }
 
 /*
--1 Look-and-say Sequence��20 �֣�
+1140. Look-and-say Sequence (20)
+时间限制
+400 ms
+内存限制
+65536 kB
+代码长度限制
+16000 B
+判题程序
+Standard
+作者
+CHEN, Yue
 Look-and-say sequence is a sequence of integers as the following:
 
 D, D1, D111, D113, D11231, D112213111, ...
@@ -38,16 +48,14 @@ where D is in [0, 9] except 1. The (n+1)st number is a kind of description of th
 
 Input Specification:
 
-Each input file contains one test case, which gives D (in [0, 9]) and a positive integer N (�� 40), separated by a space.
+Each input file contains one test case, which gives D (in [0, 9]) and a positive integer N (<=40), separated by a space.
 
 Output Specification:
 
 Print in a line the Nth number in a look-and-say sequence of D.
 
 Sample Input:
-
 1 8
 Sample Output:
-
 1123123111
 */
